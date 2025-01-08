@@ -54,5 +54,29 @@ body {
 }
 
 #m6 {
-    
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 18px solid #818181;
+    border-top: 10px solid transparent;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: rotate(74deg);
+}
+
+hr {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -320px;
+    background: #818181;
+    border-radius: 50%;
+    height: 10px;
+    width: 180px;
 }
