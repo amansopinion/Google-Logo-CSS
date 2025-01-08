@@ -1,0 +1,58 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.ci {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 60px solid transparent;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#m1 {
+    border-top: 60px solid red;
+    transform: rotate(-7deg);
+    z-index: 4;
+}
+
+#m2 {
+    border-top: 60px solid yellow;
+    transform: rotate(-90deg);
+    z-index: 3;
+}
+
+#m3 {
+    border-top: 60px solid green;
+    transform: rotate(-170deg);
+    z-index: 2;
+}
+
+#m4 {
+    border-top: 60px solid #007dd8;
+    transform: rotate(-230deg);
+    z-index: 1;
+}
+
+#m5 {
+    width: 120px;
+    height: 57px;
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    bottom: 0;
+    left: 150px;
+    right: 0;
+    background: #007dd8;
+    border-radius: 0 0 50px 0;
+    z-index: 1;
+}
+
+#m6 {
+    
+}
